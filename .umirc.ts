@@ -13,7 +13,7 @@ export default defineConfig({
   extraPostCSSPlugins: [
     postcssPx2vw({
       viewportWidth: 750,
-      unitPrecision: 5,
+      unitPrecision: 6,
       viewportUnit: 'vw',
       minPixelValue: 1,
       exclude: /(\/|\\)(node_modules)(\/|\\)/,
